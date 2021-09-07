@@ -1,0 +1,27 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/twistedomelette/WebGame.git"
+  },
+  "author": "KT <kostiktok@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/twistedomelette/WebGame/issues"
+  },
+  "homepage": "https://github.com/twistedomelette/WebGame#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^6.0.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
